@@ -257,7 +257,7 @@ We evaluated 5 state-of-the-art language models on RedSQL:
 - **Spider**: Cross-domain text-to-SQL benchmark
 - **WikiSQL**: Large-scale text-to-SQL dataset
 - **BIRD**: Big bench for large-scale database grounded text-to-SQL evaluation
-- **PAUQ**: Previous Russian text-to-SQL benchmark (general domain)
+- **[PAUQ](https://github.com/ai-spiderweb/pauq)**: Previous Russian text-to-SQL benchmark (general domain)
 ---
 
 **Note**: This benchmark is designed for research purposes to advance the field of domain-specific text-to-SQL generation. All data is synthetically generated and does not contain real personal or sensitive information. 
@@ -284,4 +284,4 @@ We evaluated 5 state-of-the-art language models on RedSQL:
     pages = "76--83",
     ISBN = "978-1-959429-57-9",
     abstract = "We present the first domain-specific text-to-SQL benchmark in Russian, targeting fields with high operational load where rapid decision-making is critical. The benchmark spans across 9 domains, including healthcare, aviation, and others, and comprises 409 curated query pairs. It is designed to test model generalization under domain shift, introducing challenges such as specialized terminology and complex schema structures. Evaluation of state-of-the-art large language models (LLM) reveals significant performance drop in comparison to open-domain academic benchmarks, highlighting the need for domain-aware approaches in text-to-SQL. The benchmark is available at: https://github.com/BrodskaiaIrina/functional-text2sql-subsets"
-}```
+}
