@@ -261,3 +261,27 @@ We evaluated 5 state-of-the-art language models on RedSQL:
 ---
 
 **Note**: This benchmark is designed for research purposes to advance the field of domain-specific text-to-SQL generation. All data is synthetically generated and does not contain real personal or sensitive information. 
+
+## Citation
+
+```bibtex
+@inproceedings{brodskaya-etal-2025-bridging,
+    title = "Bridging the Gap with {R}ed{SQL}: A {R}ussian Text-to-{SQL} Benchmark for Domain-Specific Applications",
+    author = "Brodskaya, Irina  and
+      Tutubalina, Elena  and
+      Somov, Oleg",
+    editor = "Piskorski, Jakub  and
+      P{\v{r}}ib{\'a}{\v{n}}, Pavel  and
+      Nakov, Preslav  and
+      Yangarber, Roman  and
+      Marcinczuk, Michal",
+    booktitle = "Proceedings of the 10th Workshop on Slavic Natural Language Processing (Slavic NLP 2025)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.bsnlp-1.9/",
+    pages = "76--83",
+    ISBN = "978-1-959429-57-9",
+    abstract = "We present the first domain-specific text-to-SQL benchmark in Russian, targeting fields with high operational load where rapid decision-making is critical. The benchmark spans across 9 domains, including healthcare, aviation, and others, and comprises 409 curated query pairs. It is designed to test model generalization under domain shift, introducing challenges such as specialized terminology and complex schema structures. Evaluation of state-of-the-art large language models (LLM) reveals significant performance drop in comparison to open-domain academic benchmarks, highlighting the need for domain-aware approaches in text-to-SQL. The benchmark is available at: https://github.com/BrodskaiaIrina/functional-text2sql-subsets"
+}```
